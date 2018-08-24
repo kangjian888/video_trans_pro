@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../video_trans_source/ip/pll_25MHZ" \
+"../../../../../video_trans_source/src/uart/rx/detect.v" \
+"../../../../../video_trans_source/src/uart/rx/rx_bps.v" \
+"../../../../../video_trans_source/src/uart/rx/rx_control.v" \
+"../../../../../video_trans_source/src/uart/rx/rx_uart.v" \
+"../../../../../video_trans_source/sim/uart/rx_uart_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

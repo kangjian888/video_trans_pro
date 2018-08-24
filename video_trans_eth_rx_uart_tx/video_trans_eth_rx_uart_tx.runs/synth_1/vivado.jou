@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May  8 12:13:48 2018
+# Process ID: 19000
+# Current directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1
+# Command line: vivado.exe -log rx_eth_tx_uart.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rx_eth_tx_uart.tcl
+# Log file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1/rx_eth_tx_uart.vds
+# Journal file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source rx_eth_tx_uart.tcl -notrace

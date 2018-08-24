@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jun  7 13:25:13 2018
+# Process ID: 20124
+# Current directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18904 C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_eth_rx_uart_tx\video_trans_eth_rx_uart_tx.xpr
+# Log file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/vivado.log
+# Journal file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 858.789 ; gain = 106.086
+update_compile_order -fileset sources_1

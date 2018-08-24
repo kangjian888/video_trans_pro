@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../video_trans_source/ip/pll_25MHZ" \
+"rx_uart_sim_func_synth.v" \
+"../../../../../../video_trans_source/sim/uart/rx_uart_sim.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,432 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May  1 09:03:40 2018
+# Process ID: 7404
+# Current directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5428 C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_eth_tx_uart_rx\video_trans_eth_tx_uart_rx.xpr
+# Log file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado.log
+# Journal file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.xpr}
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+update_compile_order -fileset sources_1
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list pll_25MHZ_inst/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_1/clk]
+connect_debug_port u_ila_1/clk [get_nets [list pll_25MHZ_inst/inst/clk_out1 ]]
+set_property port_width 8 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {din[0]} {din[1]} {din[2]} {din[3]} {din[4]} {din[5]} {din[6]} {din[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list rx_done_signal ]]
+set_property port_width 8 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list {dout[0]} {dout[1]} {dout[2]} {dout[3]} {dout[4]} {dout[5]} {dout[6]} {dout[7]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 4 [get_debug_ports u_ila_1/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1]
+connect_debug_port u_ila_1/probe1 [get_nets [list {PHY_TXD_d[0]} {PHY_TXD_d[1]} {PHY_TXD_d[2]} {PHY_TXD_d[3]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2]
+connect_debug_port u_ila_1/probe2 [get_nets [list PHY_TX_CTRL_d ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3]
+connect_debug_port u_ila_1/probe3 [get_nets [list send_enale ]]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+export_ip_user_files -of_objects  [get_files {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}
+add_files -norecurse {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}
+export_ip_user_files -of_objects  [get_files  {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}] -lib_map_path [list {modelsim=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/modelsim} {questa=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/questa} {riviera=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/riviera} {activehdl=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/activehdl}] -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list pll_25MHZ_inst/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_1/clk]
+connect_debug_port u_ila_1/clk [get_nets [list pll_25MHZ_inst/inst/clk_out1 ]]
+set_property port_width 8 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {din[0]} {din[1]} {din[2]} {din[3]} {din[4]} {din[5]} {din[6]} {din[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list rx_done_signal ]]
+set_property port_width 4 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list {PHY_TXD_d[0]} {PHY_TXD_d[1]} {PHY_TXD_d[2]} {PHY_TXD_d[3]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 8 [get_debug_ports u_ila_1/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1]
+connect_debug_port u_ila_1/probe1 [get_nets [list {dout[0]} {dout[1]} {dout[2]} {dout[3]} {dout[4]} {dout[5]} {dout[6]} {dout[7]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2]
+connect_debug_port u_ila_1/probe2 [get_nets [list PHY_TX_CTRL_d ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3]
+connect_debug_port u_ila_1/probe3 [get_nets [list send_enale ]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+close_design
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a200t_0_1] 0] [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.FILES [list "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a200t_0_1] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0_1] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0_1] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0_1] 0]; }; 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+endgroup
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+boot_hw_device  [lindex [get_hw_devices xc7a200t_0_1] 0]
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.FILES [list "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a200t_0_1] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0_1] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0_1] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0_1] 0]; }; 
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+endgroup
+close_hw

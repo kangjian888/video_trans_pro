@@ -1,0 +1,2224 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 12488
+License: Customer
+
+Current time: 	Mon Apr 30 09:12:13 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 65 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	F:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	F:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	KANG Jian
+User home directory: C:/Users/KANG Jian
+User working directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Xilinx/Vivado
+HDI_APPROOT: F:/Xilinx/Vivado/2017.4
+RDI_DATADIR: F:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: F:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/KANG Jian/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/KANG Jian/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/KANG Jian/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	F:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado.log
+Vivado journal file location: 	C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado.jou
+Engine tmp dir: 	C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/.Xil/Vivado-12488-DESKTOP-B3RT09T
+
+GUI allocated memory:	190 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 585 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 56 MB (+56765kb) [00:00:06]
+// [Engine Memory]: 494 MB (+367024kb) [00:00:06]
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_eth_tx_uart_rx\video_trans_eth_tx_uart_rx.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 62 MB (+2826kb) [00:00:09]
+// [Engine Memory]: 585 MB (+68695kb) [00:00:09]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 587 MB. GUI used memory: 36 MB. Current time: 4/30/18 9:12:16 AM CST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 625 MB (+11959kb) [00:00:12]
+// [GUI Memory]: 68 MB (+2604kb) [00:00:13]
+// [GUI Memory]: 75 MB (+4076kb) [00:00:14]
+// Tcl Message: open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2017.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 860.031 ; gain = 118.445 
+// Project name: video_trans_eth_tx_uart_rx; location: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx; part: xc7a200tfbg676-2
+// [Engine Memory]: 682 MB (+26232kb) [00:00:15]
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1, true); // B (D, cj) - Node
+// [GUI Memory]: 80 MB (+1525kb) [00:00:21]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/eth_tx_uart_rx.v":23'
+// [GUI Memory]: 84 MB (+102kb) [00:02:14]
+// [GUI Memory]: 89 MB (+803kb) [00:05:09]
+// Elapsed time: 356 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 7); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ethernet_tx_io_constrain.xdc]", 11, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, ethernet_tx_io_constrain.xdc]", 11, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc":0'
+// [GUI Memory]: 96 MB (+2568kb) [00:07:16]
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 381 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// x (cj): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // x (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 30 09:24:53 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// [GUI Memory]: 104 MB (+2693kb) [00:13:39]
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 62 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "13 warnings"); // h (N, cj)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Vivado 12-584] No ports matched 'PHY_TX_CTRL'. [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc:7]. ]", 2, true); // ah (O, cj) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_source\cons\ethernet\ethernet_tx_io_constrain.xdc;-;;-;16;-;line;-;7;-;;-;16;-;"); // ah (O, cj)
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc":7'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 26 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/eth_tx_uart_rx_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.. ]", 3, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 09:26:43 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, reset_run synth_1. , [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1. . ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+// [GUI Memory]: 110 MB (+716kb) [00:15:15]
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 57 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/eth_tx_uart_rx.v":23'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 714 MB. GUI used memory: 49 MB. Current time: 4/30/18 9:30:16 AM CST
+// Elapsed time: 92 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 09:30:22 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, reset_run synth_1. , [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1. . ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+// [Engine Memory]: 717 MB (+1599kb) [00:18:21]
+// Elapsed time: 44 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cj)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cj)
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 09:31:28 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// Elapsed time: 22 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cj)
+// aN (cj): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aN)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aN (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cj)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u (O, cj)
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a200tfbg676-2 
+// [Engine Memory]: 781 MB (+29353kb) [00:19:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 783 MB. GUI used memory: 49 MB. Current time: 4/30/18 9:32:01 AM CST
+// [Engine Memory]: 935 MB (+119728kb) [00:20:00]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 1,103 MB (+128056kb) [00:20:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,151 MB. GUI used memory: 49 MB. Current time: 4/30/18 9:32:16 AM CST
+// [Engine Memory]: 1,176 MB (+18522kb) [00:20:15]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// [Engine Memory]: 1,591 MB (+373262kb) [00:20:20]
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,591 MB. GUI used memory: 49 MB. Current time: 4/30/18 9:32:26 AM CST
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,732 MB (+63893kb) [00:20:22]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' for cell 'ex_tx_uart_rx_fifo_inst' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.dcp' for cell 'pll_25MHZ_inst' INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4 INFO: [Device 21-403] Loading part xc7a200tfbg676-2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1879.438 ; gain = 586.344 
+// Tcl Message: Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc] for cell 'pll_25MHZ_inst/inst' Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc] Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc] Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc] Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc] Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc] Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc] Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc] 
+// Tcl Message: INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:40 ; elapsed = 00:00:29 . Memory (MB): peak = 1944.367 ; gain = 1038.340 
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// M (cj): Critical Messages: addNotify
+// N (cj): Set Up Debug: addNotify
+// Elapsed time: 29 seconds
+dismissDialog("Open Synthesized Design"); // bs (cj)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectRadioButton(PAResourceAtoD.DebugWizard_DISCONNECT_ALL_NETS_AND_REMOVE_DEBUG, "Disconnect all nets and remove debug cores"); // a (N)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectButton("FINISH", "Finish"); // JButton (h, N)
+// TclEventType: DEBUG_CORE_DELETE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,761 MB. GUI used memory: 81 MB. Current time: 4/30/18 9:32:36 AM CST
+// Tcl Message: delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 }] 
+// bs (N):  Set Up Debug : addNotify
+dismissDialog("Set Up Debug"); // bs (N)
+dismissDialog("Set Up Debug"); // N (cj)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (M)
+dismissDialog("Critical Messages"); // M (cj)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, open_run synth_1 -name synth_1. , [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc:1]. ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// am (cj): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Save Project"); // am (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Save Constraints"); // bs (cj)
+// [GUI Memory]: 117 MB (+1763kb) [00:20:45]
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 09:32:50 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, reset_run synth_1. , [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1. . ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+selectButton(PAResourceOtoP.ProjectTab_CLOSE_DESIGN, "Close Design"); // h (cZ, cj)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,761 MB. GUI used memory: 77 MB. Current time: 4/30/18 9:33:00 AM CST
+// Engine heap size: 1,761 MB. GUI used memory: 78 MB. Current time: 4/30/18 9:33:00 AM CST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// bs (cj):  Closing : addNotify
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Closing"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 56 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 30 09:33:58 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// [GUI Memory]: 124 MB (+1185kb) [00:22:04]
+// Elapsed time: 26 seconds
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_IMPLEMENTATION, "Post-Implementation", 1); // b (C, cj)
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationGadget_PROJECT_SUMMARY_UTILIZATION_GADGET_TABBED, PAResourceOtoP.ProjectSummaryUtilizationGadget_POST_SYNTHESIS, "Post-Synthesis", 0); // b (C, cj)
+selectTab(PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_TABLE, "Table", 1); // f (C, cj)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 19 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "3 critical warnings"); // h (N, cj)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc:1]. ]", 2, true); // ah (O, cj) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_source\cons\top\eth_tx_uart_rx_top_constrain_time.xdc;-;;-;16;-;line;-;1;-;;-;16;-;"); // ah (O, cj)
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc":1'
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc:1]. ]", 2, true, false, false, false, true, false); // ah (O, cj) - Popup Trigger - Node
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, cj): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, cj): TRUE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 28, false, false, false, false, true, false); // u (O, cj) - Popup Trigger
+selectMenuItem(PAResourceEtoH.FlowNavigatorTreePanel_RESET_IMPLEMENTATION_RUN, "Reset Implementation Run"); // ac (ai, cj)
+// p (cj): Reset Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "Reset"); // a (p)
+// HOptionPane Warning: 'Run 'impl_1' appears to be running or queued. Reset anyway? (Reset Runs)'
+// p (cj): Reset Runs: addNotify
+// bs (p):  Resetting Runs : addNotify
+selectButton("PAResourceAtoD.DeleteRunsDialog_THERE_SOME_JOBS_THAT_APPEAR_TOBE_Yes", "Yes"); // JButton (A, H)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.4s
+dismissDialog("Resetting Runs"); // bs (p)
+// [GUI Memory]: 134 MB (+3885kb) [00:23:21]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 28, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 30 09:35:30 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log [Mon Apr 30 09:35:30 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, reset_run synth_1. , [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1. . ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cj): Implementation Completed: addNotify
+// Elapsed time: 554 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Completed"); // ah (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.. ]", 2, false); // ah (O, cj)
+// Elapsed time: 287 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.. ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.. ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+// Elapsed time: 24 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.. ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+// Elapsed time: 40 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 29); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 29); // u (O, cj)
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 41, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// [GUI Memory]: 143 MB (+2760kb) [00:39:29]
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 09:51:34 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 82 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+// Elapsed time: 542 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_CHECKPOINT, "Open Recent Checkpoint"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 26, false); // u (O, cj)
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a200tfbg676-2 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,761 MB. GUI used memory: 57 MB. Current time: 4/30/18 10:02:06 AM CST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' for cell 'ex_tx_uart_rx_fifo_inst' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.dcp' for cell 'pll_25MHZ_inst' INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57] 
+// Tcl Message: INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+dismissDialog("Open Synthesized Design"); // bs (cj)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 44, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cj)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bs (cj):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2017.4   **** Build date : Dec 15 2017-21:08:27     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// [Engine Memory]: 2,282 MB (+485959kb) [00:50:26]
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,282 MB. GUI used memory: 91 MB. Current time: 4/30/18 10:02:31 AM CST
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+// CommandFailedException: ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx 
+dismissDialog("Auto Connect"); // bs (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ;   ", 3, "XADC", 0, false); // t (O, cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210512180081 (1) ; Open", 1, "xilinx_tcf/Digilent/210512180081 (1)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210512180081 (1) ; Open", 1, "xilinx_tcf/Digilent/210512180081 (1)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_REFRESH_TARGET, "Refresh Target"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_TARGET
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// Tcl Message: refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081} 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ;   ", 3, "XADC", 0, false); // t (O, cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Not programmed", 2, "xc7a200t_0 (1)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Not programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY, "Add Configuration Memory Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+// aQ (cj): Add Configuration Memory Device: addNotify
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_MANUFACTURER_CHOOSER, "Micron", 2); // u (a, aQ)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_TYPE_CHOOSER, "spi", 2); // B (a, aQ)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_DENSITY_CHOOSER, "256", 5); // m (a, aQ)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_WIDTH_CHOOSER, "x1_x2_x4", 1); // F (a, aQ)
+selectTable(PAResourceAtoD.CfgMemPartChooser_TABLE, "mt25ql256-spi-x1_x2_x4 ; mt25ql256 ; Micron ; n25q256-3.3v-spi-x1_x2_x4 ; mt25ql ; spi ; 256 ; x1_x2_x4", 0, "mt25ql256", 1); // f (O, aQ)
+selectTable(PAResourceAtoD.CfgMemPartChooser_TABLE, "mt25ql256-spi-x1_x2_x4 ; mt25ql256 ; Micron ; n25q256-3.3v-spi-x1_x2_x4 ; mt25ql ; spi ; 256 ; x1_x2_x4", 0, "mt25ql256", 1, false, false, false, false, true); // f (O, aQ) - Double Click
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aQ)
+// 'a' command handler elapsed time: 16 seconds
+dismissDialog("Add Configuration Memory Device"); // aQ (cj)
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a200t_0] 0] [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// x (cj): Add Configuration Memory Device Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+// aE (cj): Program Configuration Memory Device: addNotify
+dismissDialog("Add Configuration Memory Device Completed"); // x (cj)
+selectButton(PAResourceOtoP.ProgramCfgMemDialog_CONTENTS_OF_CONFIGURATION_FILE, (String) null); // q (af, aE)
+dismissFileChooser();
+// HMemoryUtils.trashcanNow. Engine heap size: 2,340 MB. GUI used memory: 96 MB. Current time: 4/30/18 10:03:11 AM CST
+// 'aa' command handler elapsed time: 7 seconds
+dismissDialog("Program Configuration Memory Device"); // aE (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 41, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_Cancel", "Cancel"); // JButton (A, G)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 41, false, false, false, false, true, false); // u (O, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS, "Bitstream Settings..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// v (cj): Settings: addNotify
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+// Tcl Message: set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,400 MB. GUI used memory: 111 MB. Current time: 4/30/18 10:03:26 AM CST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+// [Engine Memory]: 2,400 MB (+4410kb) [00:51:22]
+dismissDialog("Settings"); // v (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 41, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 10:03:29 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// [GUI Memory]: 154 MB (+4466kb) [00:51:31]
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 164 MB (+1629kb) [00:53:01]
+// Elapsed time: 98 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mt25ql256-spi-x1_x2_x4 ;   ", 4, "mt25ql256-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t (O, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY, "Program Configuration Memory Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+// aE (cj): Program Configuration Memory Device: addNotify
+selectButton(PAResourceOtoP.ProgramCfgMemDialog_CONTENTS_OF_CONFIGURATION_FILE, (String) null); // q (af, aE)
+dismissFileChooser();
+// 'aa' command handler elapsed time: 9 seconds
+dismissDialog("Program Configuration Memory Device"); // aE (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mt25ql256-spi-x1_x2_x4 ;   ", 4, "mt25ql256-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t (O, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY, "Program Configuration Memory Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+// aE (cj): Program Configuration Memory Device: addNotify
+dismissDialog("Program Configuration Memory Device"); // aE (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mt25ql256-spi-x1_x2_x4 ;   ", 4, "mt25ql256-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t (O, cj) - Popup Trigger
+// [GUI Memory]: 174 MB (+2491kb) [00:53:27]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 41, false, false, false, false, true, false); // u (O, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS, "Bitstream Settings..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// v (cj): Settings: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+// [GUI Memory]: 186 MB (+3340kb) [00:53:35]
+// [GUI Memory]: 198 MB (+2724kb) [00:53:36]
+dismissDialog("Settings"); // v (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,472 MB. GUI used memory: 110 MB. Current time: 4/30/18 10:05:41 AM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 41, false, false, false, false, true, false); // u (O, cj) - Popup Trigger
+selectButton(PAResourceEtoH.HardwareCfgMemPropPanels_SPECIFY_CONFIGURATION_MEMORY_PROGRAMMING, (String) null); // q (aq, cj)
+selectButton(RDIResource.HJFileChooserHelpers_REFRESH_FOLDER_VIEW_TO_REFLECT_EXTERNAL, (String) null); // a (b, JDialog)
+selectButton(RDIResource.HJFileChooserHelpers_REFRESH_FOLDER_VIEW_TO_REFLECT_EXTERNAL, (String) null); // a (b, JDialog)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,476 MB. GUI used memory: 112 MB. Current time: 4/30/18 10:06:26 AM CST
+// Elapsed time: 70 seconds
+setFileChooser("C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin");
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin  
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2017.4 (64-bit)
+# SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Current time: Mon Apr 30 10:07:04 CST 2018
+# Process ID: 12488
+# OS: Windows 10
+# User: KANG Jian
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException:  ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin
+ (See C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado_pid12488.debug)
+*/
+// Tcl Message: set_property PROGRAM.FILES "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0]] 
+// Tcl Message: ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin 
+// HOptionPane Error: 'ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin (Vivado v2017.4 (64-bit))'
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin  
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2017.4 (64-bit)
+# SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Current time: Mon Apr 30 10:07:04 CST 2018
+# Process ID: 12488
+# OS: Windows 10
+# User: KANG Jian
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException:  ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin
+ (See C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado_pid12488.debug)
+*/
+// Tcl Message: set_property PROGRAM.FILES "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0]] 
+// Tcl Message: ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin 
+// HOptionPane Error: 'ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin (Vivado v2017.4 (64-bit))'
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton (A, G)
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton (A, G)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 805, 82, false, false, false, true, false); // dw (ad, cj) - Popup Trigger
+selectMenuItem(RDIResource.TclConsoleView_CLEAR_ALL_OUTPUT, "Clear All Output"); // ac (ai, Popup.HeavyWeightWindow)
+selectButton("RDIResource.TclConsoleView_OK_TO_CLEAR_ALL_OUTPUT_FROM_TCL_CONSOLE_No", "No"); // JButton (A, G)
+setText(PAResourceEtoH.HardwareCfgMemPropPanels_SPECIFY_CONFIGURATION_MEMORY_PROGRAMMING, (String) null); // ag (aq, cj)
+setText(PAResourceEtoH.HardwareCfgMemPropPanels_SPECIFY_CONFIGURATION_MEMORY_PROGRAMMING, (String) null); // ag (aq, cj)
+selectButton(PAResourceEtoH.HardwareCfgMemPropPanels_SPECIFY_CONFIGURATION_MEMORY_PROGRAMMING, (String) null); // q (aq, cj)
+setFileChooser("C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin");
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin  
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2017.4 (64-bit)
+# SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Current time: Mon Apr 30 10:07:28 CST 2018
+# Process ID: 12488
+# OS: Windows 10
+# User: KANG Jian
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+ui.frmwork.CommandFailedException:  ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin
+ (See C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado_pid12488.debug)
+*/
+// Tcl Message: set_property PROGRAM.FILES "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0]] 
+// Tcl Message: ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin 
+// HOptionPane Error: 'ERROR: [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin (Vivado v2017.4 (64-bit))'
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceEtoH.HardwareCfgMemPropPanels_SPECIFY_CONFIGURATION_MEMORY_PROGRAMMING, (String) null); // q (aq, cj)
+dismissFileChooser();
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cj)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// x (cj): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // x (cj)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bs (cj):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bs (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 44, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cj)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_DEVICE_CHANGE
+// bs (cj):  Auto Connect : addNotify
+// CommandFailedException: ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx 
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+dismissDialog("Auto Connect"); // bs (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Not programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY, "Add Configuration Memory Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+// aQ (cj): Add Configuration Memory Device: addNotify
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_MANUFACTURER_CHOOSER, "Micron", 2); // u (a, aQ)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_TYPE_CHOOSER, "spi", 2); // B (a, aQ)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_DENSITY_CHOOSER, "256", 5); // m (a, aQ)
+selectTable(PAResourceAtoD.CfgMemPartChooser_TABLE, "mt25ql256-spi-x1_x2_x4 ; mt25ql256 ; Micron ; n25q256-3.3v-spi-x1_x2_x4 ; mt25ql ; spi ; 256 ; x1_x2_x4", 0, "mt25ql256", 1); // f (O, aQ)
+selectTable(PAResourceAtoD.CfgMemPartChooser_TABLE, "mt25ql256-spi-x1_x2_x4 ; mt25ql256 ; Micron ; n25q256-3.3v-spi-x1_x2_x4 ; mt25ql ; spi ; 256 ; x1_x2_x4", 0, "mt25ql256", 1, false, false, false, false, true); // f (O, aQ) - Double Click
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aQ)
+// 'a' command handler elapsed time: 14 seconds
+dismissDialog("Add Configuration Memory Device"); // aQ (cj)
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a200t_0] 0] [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// x (cj): Add Configuration Memory Device Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+// aE (cj): Program Configuration Memory Device: addNotify
+dismissDialog("Add Configuration Memory Device Completed"); // x (cj)
+selectButton(PAResourceOtoP.ProgramCfgMemDialog_CONTENTS_OF_CONFIGURATION_FILE, (String) null); // q (af, aE)
+setFileChooser("C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// 'aa' command handler elapsed time: 8 seconds
+dismissDialog("Program Configuration Memory Device"); // aE (cj)
+// Tcl Message: set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.FILES [list "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: startgroup  
+// TclEventType: HW_DEVICE_CHANGE
+// bs (cj):  Program Configuration Memory Device : addNotify
+// Tcl Message: if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a200t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0] 0]; };  
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]] 
+// Tcl Message: Mfg ID : 20   Memory Type : ba   Memory Capacity : 19   Device ID 1 : 0   Device ID 2 : 0 Performing Erase Operation... 
+// Tcl Message: Erase Operation successful. Performing Program and Verify Operations... 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: Program/Verify Operation successful. 
+// Tcl Message: INFO: [Labtoolstcl 44-377] Flash programming completed successfully 
+// Tcl Message: program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:05:17 . Memory (MB): peak = 2662.219 ; gain = 10.859 
+// Tcl Message: endgroup 
+// Elapsed time: 1440 seconds
+selectButton("PAResourceOtoP.ProgramCfgMem_FLASH_PROGRAMMING_COMPLETED_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081 
+// n (cj): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 19 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cj)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081 
+// n (cj): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 23 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cj)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx 
+// n (cj): Close Hardware Target: addNotify
+// Elapsed time: 81 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cj)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cj)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// x (cj): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // x (cj)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bs (cj):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 105 MB. Current time: 4/30/18 10:36:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 102 MB. Current time: 4/30/18 11:06:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 102 MB. Current time: 4/30/18 11:36:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 102 MB. Current time: 4/30/18 12:06:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 102 MB. Current time: 4/30/18 12:36:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 102 MB. Current time: 4/30/18 1:06:27 PM CST
+// Elapsed time: 10138 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 44, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 103 MB. Current time: 4/30/18 1:36:28 PM CST
+// Elapsed time: 2517 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-JTAG-HS1-210512180081" may be locked by another hw_server. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-JTAG-HS1-210512180081" may be locked by another hw_server.  
+// bs (cj):  Auto Connect : addNotify
+// a (cj): Critical Messages: addNotify
+dismissDialog("Auto Connect"); // bs (cj)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_CFGMEM_DELETE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-JTAG-HS1-210512180081" may be locked by another hw_server. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.  Targets(s) ", jsn-JTAG-HS1-210512180081" may be locked by another hw_server.  
+// a (cj): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx 
+// n (cj): Close Hardware Target: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cj)
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h (cZ, cj)
+selectMenuItem((HResource) null, "xc7a200t_0"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx  
+// bs (cj):  Refresh Device : addNotify
+dismissDialog("Refresh Device"); // bs (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "xc7a200t_0 (1)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// CommandFailedException: ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx 
+// bs (cj):  Program Device : addNotify
+// HOptionPane Error: 'ERROR: [Common 17-48] File not found: C:/Users/KANG Jian/Desktop/video_trans_pro/video_ trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx  (Program Device)'
+dismissDialog("Program Device"); // bA (cj)
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (1) ; Programmed", 2, "Programmed", 1, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+setText(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_DEBUG_PROBES_FILE, (String) null); // ag (af, bA)
+setText(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_DEBUG_PROBES_FILE, (String) null); // ag (af, bA)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bA (cj)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a200t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2664.578 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0] 
+// 'I' command handler elapsed time: 12 seconds
+dismissDialog("Program Device"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 104 MB. Current time: 4/30/18 2:06:28 PM CST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081 
+// n (cj): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 72 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Not programmed", 2, "xc7a200t_0 (2)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Not programmed", 2, "xc7a200t_0 (2)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// HOptionPane Error: 'The file 'F:/Xilinx/Vivado/2017.4/data/xicom/cfgmem/spi_xc7a200t_pullnone.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // JButton (A, H)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// HOptionPane Error: 'The file 'F:/Xilinx/Vivado/2017.4/data/xicom/cfgmem/spi_xc7a200t_pullnone.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // JButton (A, H)
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bA (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Not programmed", 2, "xc7a200t_0 (2)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+dismissDialog("Program Device"); // bA (cj)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cj)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// x (cj): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // x (cj)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bs (cj):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bs (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 44, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cj)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// bs (cj):  Auto Connect : addNotify
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0] 
+dismissDialog("Auto Connect"); // bs (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Not programmed", 2, "xc7a200t_0 (2)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Not programmed", 2, "xc7a200t_0 (2)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // q (af, bA)
+// Elapsed time: 26 seconds
+setFileChooser("C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bA (cj)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a200t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2664.578 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 37 seconds
+dismissDialog("Program Device"); // bs (cj)
+// Elapsed time: 92 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cj)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// x (cj): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+dismissDialog("Confirm Close"); // x (cj)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bs (cj):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bs (cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v), ethernet_tx_inst : ethernet_tx (ethernet_tx.v)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, eth_tx_uart_rx (eth_tx_uart_rx.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/eth_tx_uart_rx.v":23'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// x (cj): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // x (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 30 14:11:13 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, set_property PROGRAM.FILES C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0]]. , [Labtoolstcl 44-518] Invalid configuration file assigned. Valid file type extension .mcs or .bin. ]", 5, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac (K, Popup.HeavyWeightWindow)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2611] redeclaration of ansi port PHY_TXD is not allowed [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/eth_tx_uart_rx.v:87]. ]", 1, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_source\src\top\eth_tx_uart_rx.v;-;;-;16;-;line;-;87;-;;-;16;-;"); // ah (O, cj)
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/eth_tx_uart_rx.v":87'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 14:13:29 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+selectButton(PAResourceOtoP.ProjectTab_CLOSE_DESIGN, "Close Design"); // h (cZ, cj)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 76 MB. Current time: 4/30/18 2:13:31 PM CST
+// Engine heap size: 2,491 MB. GUI used memory: 77 MB. Current time: 4/30/18 2:13:31 PM CST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// bs (cj):  Closing : addNotify
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Closing"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 79 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin tx_ctrl_inferred:in0 to constant 0. ]", 1, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin tx_ctrl_inferred:in0 to constant 0. ]", 1, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin tx_ctrl_inferred:in0 to constant 0. ]", 1, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin tx_ctrl_inferred:in0 to constant 0. ]", 1, false, false, false, false, false, true); // ah (O, cj) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3295] tying undriven pin tx_ctrl_inferred:in0 to constant 0. ]", 1, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 68 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bs (cj):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: [Mon Apr 30 14:16:08 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 96 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u (O, cj)
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a200tfbg676-2 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 77 MB. Current time: 4/30/18 2:17:50 PM CST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' for cell 'ex_tx_uart_rx_fifo_inst' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.dcp' for cell 'pll_25MHZ_inst' INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57] 
+// Tcl Message: INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// N (cj): Set Up Debug: addNotify
+dismissDialog("Open Synthesized Design"); // bs (cj)
+// bs (N):  Filtering Net and Tracing Clock Domain : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, N)
+dismissDialog("Filtering Net and Tracing Clock Domain"); // bs (N)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectComboBox(PAResourceAtoD.DebugWizard_SAMPLE_OF_DATA_DEPTH, "8192", 3); // e (N)
+selectButton("NEXT", "Next >"); // JButton (h, N)
+selectButton("FINISH", "Finish"); // JButton (h, N)
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_0 ila 
+// Tcl Message: set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// bs (N):  Set Up Debug : addNotify
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_1 ila 
+// Tcl Message: set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/clk] 
+// Tcl Message: connect_debug_port u_ila_0/clk [get_nets [list pll_25MHZ_inst/inst/clk_out2 ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/clk] 
+// Tcl Message: connect_debug_port u_ila_1/clk [get_nets [list pll_25MHZ_inst/inst/clk_out1 ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_0/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe0 [get_nets [list {din[0]} {din[1]} {din[2]} {din[3]} {din[4]} {din[5]} {din[6]} {din[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe1] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe1 [get_nets [list rx_done_signal ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_1/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe0 [get_nets [list {PHY_TXD_d[0]} {PHY_TXD_d[1]} {PHY_TXD_d[2]} {PHY_TXD_d[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_1/probe1] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe1 [get_nets [list {dout[0]} {dout[1]} {dout[2]} {dout[3]} {dout[4]} {dout[5]} {dout[6]} {dout[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe2] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe2 [get_nets [list PHY_TX_CTRL_d ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe3] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 104 MB. Current time: 4/30/18 2:18:13 PM CST
+// Tcl Message: connect_debug_port u_ila_1/probe3 [get_nets [list send_enale ]] 
+dismissDialog("Set Up Debug"); // bs (N)
+dismissDialog("Set Up Debug"); // N (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 43, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cj): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// x (cj): Out of Date Design: addNotify
+dismissDialog("Save Project"); // am (cj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // x (cj)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+// x (cj): No Implementation Results Available: addNotify
+selectButton("PAResourceAtoD.ConstraintUtils_ALL_NEW_CONSTRAINTS_SAVED_OK", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("No Implementation Results Available"); // x (cj)
+dismissDialog("Resetting Runs"); // bs (cj)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cj):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// Tcl Message: Writing placer database... Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 2717.836 ; gain = 0.000 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 30 14:18:23 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 832 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cj)
+// Elapsed time: 79 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bs (cj):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2017.4   **** Build date : Dec 15 2017-21:08:27     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0] 
+dismissDialog("Auto Connect"); // bs (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210512180081 (1) ; Open", 1, "xilinx_tcf/Digilent/210512180081 (1)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Programmed", 2, "xc7a200t_0 (2)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0 (2) ; Programmed", 2, "xc7a200t_0 (2)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cj): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// HOptionPane Error: 'The file 'F:/Xilinx/Vivado/2017.4/data/xicom/cfgmem/spi_xc7a200t_pullnone.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // JButton (A, H)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // q (af, bA)
+selectButton(RDIResource.HJFileChooserHelpers_JUMP_TO_CURRENT_WORKING_DIRECTORY, (String) null); // a (b, JDialog)
+// Elapsed time: 26 seconds
+setFileChooser("C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cj):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bA (cj)
+// Tcl Message: set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2717.836 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 2:34:35 PM CST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// 'I' command handler elapsed time: 51 seconds
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 14 seconds
+dismissDialog("Program Device"); // bs (cj)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_2", 1); // k (j, cj)
+selectButton(RDIResource.WaveformView_ADD, "Waveform Viewer_new"); // B (f, cj)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, PHY_TX_CTRL_d]", 1, false); // N (O, ResizableWindow)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Add Probes: hide
+// Tcl Message: add_wave -into {hw_ila_data_2.wcfg} -radix hex { {PHY_TX_CTRL_d} } 
+selectButton(RDIResource.WaveformView_ADD, "Waveform Viewer_new"); // B (f, cj)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, PHY_TXD_d[3:0]]", 2, false); // N (O, ResizableWindow)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Add Probes: hide
+// Tcl Message: add_wave -into {hw_ila_data_2.wcfg} -radix hex { {PHY_TXD_d} } 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-Apr-30 14:35:08 
+// Elapsed time: 147 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cj)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// x (cj): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg} 
+// Tcl Message: save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg} 
+// TclEventType: WAVEFORM_MODEL_EVENT
+dismissDialog("Confirm Close"); // x (cj)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: close_hw 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// bs (cj):  CLose Hardware Manager : addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_2"); // i
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_SESSION_CLOSE
+dismissDialog("CLose Hardware Manager"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 106 MB. Current time: 4/30/18 3:04:39 PM CST
+// Elapsed time: 1625 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 44, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cj)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a200t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0] 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210203A0FE9BA (0) ; Closed", 5, "xilinx_tcf/Digilent/210203A0FE9BA (0)", 0, false); // t (O, cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210203A0FE9BA (0) ; Closed", 5, "xilinx_tcf/Digilent/210203A0FE9BA (0)", 0, false, false, false, false, true, false); // t (O, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET, "Open Target"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET
+selectButton("PAResourceOtoP.OpenTarget_OK_TO_CLOSE_CURRENTLY_OPEN_TARGET_OK", "OK"); // JButton (A, G)
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_CFGMEM_DELETE
+// Tcl Message: close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081} 
+// Tcl Message: INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA} 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1] 
+// bs (cj):  Open Target : addNotify
+// Tcl Message: current_hw_device [get_hw_devices xc7a200t_0_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 126 MB. Current time: 4/30/18 3:04:58 PM CST
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+dismissDialog("Open Target"); // bs (cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ;   ", 4, "XADC", 0, false); // t (O, cj)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0_1 (3) ; Programmed", 3, "xc7a200t_0_1 (3)", 0, true); // t (O, cj) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0_1 (3) ; Programmed", 3, "xc7a200t_0_1 (3)", 0, true, false, false, false, true, false); // t (O, cj) - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a200t_0_1 (3) ; Programmed", 3, "xc7a200t_0_1 (3)", 0, true); // t (O, cj) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_2", 1); // k (j, cj)
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_1", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_2", 1); // k (j, cj)
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-Apr-30 15:05:26 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 133 MB. Current time: 4/30/18 3:05:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Elapsed time: 10 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 526, 129); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 132 MB. Current time: 4/30/18 3:05:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:40 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 141 MB. Current time: 4/30/18 3:05:41 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:43 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:44 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:44 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:44 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:46 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:47 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:47 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:48 PM CST
+// Elapsed time: 12 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 73, 149); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:05:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 12 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 346, 150); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 274, 151); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 89 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-Apr-30 15:07:36 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:07:37 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-Apr-30 15:07:36 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Elapsed time: 12 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-Apr-30 15:07:49 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-Apr-30 15:07:52 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:07:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Elapsed time: 13 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 142 MB. Current time: 4/30/18 3:08:02 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 255, 102); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:06 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:10 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:14 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:19 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:20 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:21 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:21 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:34 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 32 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 768, 157); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:08:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 161 MB. Current time: 4/30/18 3:08:46 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:48 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:49 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:50 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:51 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:51 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:51 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:52 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:52 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:52 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:53 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 834, 149); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:08:57 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 140 MB. Current time: 4/30/18 3:08:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:01 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 309, 67); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 516, 81); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:07 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:18 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:52 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:09:54 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:09:55 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:09:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:09:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:09:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:10 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 76 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 412, 153); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:33 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:36 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:37 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:37 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:41 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:41 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:42 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:42 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:43 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:43 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:44 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 3:10:44 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:10:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 3:40:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 4:10:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 4:40:49 PM CST
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 130 MB. Current time: 4/30/18 4:58:10 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 4:58:23 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 135 MB. Current time: 4/30/18 4:58:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 4:58:42 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 4:58:55 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 128 MB. Current time: 4/30/18 4:59:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,491 MB. GUI used memory: 127 MB. Current time: 4/30/18 5:29:05 PM CST
+// TclEventType: HW_SERVER_NEEDS_CLOSE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+
+// Exiting Vivado with a status code 0 at 4/30/18 5:39:04 PM CST...
+// Elapsed time: 08:26:58

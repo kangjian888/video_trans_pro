@@ -1,0 +1,4 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+the recieved letter is 170. It should be 55
+$finish called at time : 13265100 ps : File "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/sim/uart/rx_uart_sim.v" Line 85

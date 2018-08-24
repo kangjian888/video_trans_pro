@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May  7 20:51:29 2018
+# Process ID: 14016
+# Current directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17104 C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_eth_rx_uart_tx\video_trans_eth_rx_uart_tx.xpr
+# Log file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/vivado.log
+# Journal file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 857.102 ; gain = 108.531
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_rx_uart_tx_fifo/ex_rx_uart_tx_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date
+[Mon May  7 20:54:17 2018] Launched synth_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1/runme.log
+[Mon May  7 20:54:17 2018] Launched impl_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/impl_1/rx_eth_tx_uart.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.FILES [list "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/impl_1/rx_eth_tx_uart.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a200t_0] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 19   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:05:10 . Memory (MB): peak = 1515.055 ; gain = 10.598
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  7 21:24:48 2018...

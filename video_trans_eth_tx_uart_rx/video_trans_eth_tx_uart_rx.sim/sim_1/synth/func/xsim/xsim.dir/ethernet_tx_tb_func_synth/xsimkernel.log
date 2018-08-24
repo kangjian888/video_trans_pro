@@ -1,0 +1,7 @@
+Running: xsim.dir/ethernet_tx_tb_func_synth/xsimk.exe -simmode gui -wdb ethernet_tx_tb_func_synth.wdb -simrunnum 0 -socket 51911
+Design successfully loaded
+Design Loading Memory Usage: 8412 KB (Peak: 8412 KB)
+Design Loading CPU Usage: 171 ms
+Simulation completed
+Simulation Memory Usage: 13944 KB (Peak: 13944 KB)
+Simulation CPU Usage: 874 ms

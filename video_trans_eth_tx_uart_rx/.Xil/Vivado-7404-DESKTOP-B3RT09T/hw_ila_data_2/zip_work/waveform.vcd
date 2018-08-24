@@ -1,0 +1,19 @@
+$date
+        2018-May-01 16:28:21
+$end
+$version
+        Vivado v2017.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 4 " PHY_TXD_d [3:0] $end
+$var reg 8 & dout [7:0] $end
+$var reg 1 . PHY_TX_CTRL_d $end
+$var reg 1 / send_enale $end
+$var reg 1 0 _TRIGGER $end
+$var reg 1 1 _WINDOW $end
+$var reg 1 2 _GAP $end
+$upscope $end
+$enddefinitions $end

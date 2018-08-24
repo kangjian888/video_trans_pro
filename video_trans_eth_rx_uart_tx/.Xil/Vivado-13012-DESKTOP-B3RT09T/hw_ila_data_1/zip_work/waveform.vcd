@@ -1,0 +1,59 @@
+$date
+        2018-May-01 17:19:21
+$end
+$version
+        Vivado v2017.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 8 " dout [7:0] $end
+$var reg 1 * empty $end
+$var reg 1 + _TRIGGER $end
+$var reg 1 , _WINDOW $end
+$var reg 1 - _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+1*
+0+
+1,
+0-
+$end
+#4096
+b1000 "
+0*
+1+
+#4322
+b0 "
+#4572
+b1000101 "
+#4822
+b0 "
+#5072
+b101 "
+#5322
+b1000000 "
+#5572
+b1100101 "
+#5822
+b1110110 "
+#6072
+b0 "
+#6572
+b10000000 "
+#6822
+b10001 "
+#7072
+b1001110 "
+#7322
+b11100001 "
+#7572
+b11000000 "
+#7822
+b10101000 "
+#8072
+b0 "

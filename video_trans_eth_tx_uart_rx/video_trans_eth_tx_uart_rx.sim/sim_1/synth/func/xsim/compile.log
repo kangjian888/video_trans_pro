@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.sim/sim_1/synth/func/xsim/rx_uart_sim_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dbg_hub_CV
+INFO: [VRFC 10-311] analyzing module u_ila_0_CV
+INFO: [VRFC 10-311] analyzing module detect
+INFO: [VRFC 10-311] analyzing module rx_bps
+INFO: [VRFC 10-311] analyzing module rx_control
+INFO: [VRFC 10-311] analyzing module rx_uart
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../video_trans_source/ip/pll_25MHZ" \
+"ethernet_tx_tb_func_synth.v" \
+"../../../../../../video_trans_source/sim/ethernet/ethernet_tx_tb.v" \
+
+# Do not sort compile order
+nosort

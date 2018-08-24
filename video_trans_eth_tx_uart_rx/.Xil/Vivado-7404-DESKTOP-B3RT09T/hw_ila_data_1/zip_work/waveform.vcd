@@ -1,0 +1,17 @@
+$date
+        2018-May-01 16:28:19
+$end
+$version
+        Vivado v2017.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 8 " din [7:0] $end
+$var reg 1 * rx_done_signal $end
+$var reg 1 + _TRIGGER $end
+$var reg 1 , _WINDOW $end
+$var reg 1 - _GAP $end
+$upscope $end
+$enddefinitions $end

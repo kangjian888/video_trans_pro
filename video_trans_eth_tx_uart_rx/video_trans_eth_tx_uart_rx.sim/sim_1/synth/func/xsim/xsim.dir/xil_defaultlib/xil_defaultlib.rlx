@@ -1,0 +1,7 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.sim/sim_1/synth/func/xsim/rx_uart_sim_func_synth.v,1524830207,verilog,,C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/sim/uart/rx_uart_sim.v,,dbg_hub_CV;detect;glbl;rx_bps;rx_control;rx_uart;u_ila_0_CV,,,../../../../../../video_trans_source/ip/pll_25MHZ,,,,,
+C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/sim/ethernet/ethernet_tx_tb.v,1524445517,verilog,,,,ethernet_tx_tb,,,../../../../../../video_trans_source/ip/pll_25MHZ,,,,,
+C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/sim/uart/rx_uart_sim.v,1524120530,verilog,,,,rx_uart_sim,,,../../../../../../video_trans_source/ip/pll_25MHZ,,,,,

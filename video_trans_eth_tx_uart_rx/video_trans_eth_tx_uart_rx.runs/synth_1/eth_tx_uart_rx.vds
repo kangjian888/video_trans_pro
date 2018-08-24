@@ -1,0 +1,446 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May  7 22:18:11 2018
+# Process ID: 8452
+# Current directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1
+# Command line: vivado.exe -log eth_tx_uart_rx.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source eth_tx_uart_rx.tcl
+# Log file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/eth_tx_uart_rx.vds
+# Journal file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source eth_tx_uart_rx.tcl -notrace
+Command: synth_design -top eth_tx_uart_rx -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13364 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 416.953 ; gain = 101.758
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'eth_tx_uart_rx' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/eth_tx_uart_rx.v:23]
+INFO: [Synth 8-638] synthesizing module 'pll_25MHZ' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/realtime/pll_25MHZ_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'pll_25MHZ' (1#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/realtime/pll_25MHZ_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'rx_uart' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_uart.v:23]
+INFO: [Synth 8-638] synthesizing module 'detect' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/detect.v:24]
+INFO: [Synth 8-256] done synthesizing module 'detect' (2#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/detect.v:24]
+INFO: [Synth 8-638] synthesizing module 'rx_bps' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_bps.v:23]
+	Parameter bps bound to: 4000000 - type: integer 
+	Parameter total_counter bound to: 24 - type: integer 
+	Parameter half_counter bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'rx_bps' (3#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_bps.v:23]
+INFO: [Synth 8-638] synthesizing module 'rx_control' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_control.v:23]
+	Parameter IDLE bound to: 4'b0000 
+	Parameter START_BIT bound to: 4'b0001 
+	Parameter DATA_BIT_1 bound to: 4'b0010 
+	Parameter DATA_BIT_2 bound to: 4'b0011 
+	Parameter DATA_BIT_3 bound to: 4'b0100 
+	Parameter DATA_BIT_4 bound to: 4'b0101 
+	Parameter DATA_BIT_5 bound to: 4'b0110 
+	Parameter DATA_BIT_6 bound to: 4'b0111 
+	Parameter DATA_BIT_7 bound to: 4'b1000 
+	Parameter DATA_BIT_8 bound to: 4'b1001 
+	Parameter STOP_BIT_1 bound to: 4'b1010 
+	Parameter STOP_BIT_2 bound to: 4'b1011 
+INFO: [Synth 8-256] done synthesizing module 'rx_control' (4#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_control.v:23]
+INFO: [Synth 8-256] done synthesizing module 'rx_uart' (5#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_uart.v:23]
+INFO: [Synth 8-638] synthesizing module 'ex_tx_uart_rx_fifo' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/realtime/ex_tx_uart_rx_fifo_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ex_tx_uart_rx_fifo' (6#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/realtime/ex_tx_uart_rx_fifo_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'ethernet_tx' [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/ethernet/tx/ethernet_tx.v:24]
+	Parameter IDLE bound to: 2'b00 
+	Parameter START bound to: 2'b01 
+	Parameter SEND_DATA bound to: 2'b11 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/ethernet/tx/ethernet_tx.v:127]
+INFO: [Synth 8-256] done synthesizing module 'ethernet_tx' (7#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/ethernet/tx/ethernet_tx.v:24]
+INFO: [Synth 8-256] done synthesizing module 'eth_tx_uart_rx' (8#1) [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/eth_tx_uart_rx.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 469.871 ; gain = 154.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 469.871 ; gain = 154.676
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp2/ex_tx_uart_rx_fifo_in_context.xdc] for cell 'ex_tx_uart_rx_fifo_inst'
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp2/ex_tx_uart_rx_fifo_in_context.xdc] for cell 'ex_tx_uart_rx_fifo_inst'
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp3/pll_25MHZ_in_context.xdc] for cell 'pll_25MHZ_inst'
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp3/pll_25MHZ_in_context.xdc] for cell 'pll_25MHZ_inst'
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/eth_tx_uart_rx_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/eth_tx_uart_rx_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc]
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/eth_tx_uart_rx_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/eth_tx_uart_rx_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/eth_tx_uart_rx_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/eth_tx_uart_rx_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 863.066 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 863.066 ; gain = 547.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 863.066 ; gain = 547.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for SYSCLK_N. (constraint file  {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp3/pll_25MHZ_in_context.xdc}, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for SYSCLK_N. (constraint file  {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp3/pll_25MHZ_in_context.xdc}, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for SYSCLK_P. (constraint file  {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp3/pll_25MHZ_in_context.xdc}, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for SYSCLK_P. (constraint file  {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/.Xil/Vivado-8452-DESKTOP-B3RT09T/dcp3/pll_25MHZ_in_context.xdc}, line 7).
+Applied set_property DONT_TOUCH = true for ex_tx_uart_rx_fifo_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pll_25MHZ_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 863.066 ; gain = 547.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "bps_clk_half" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bps_clk_total" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'rx_control'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "data_request" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "flag_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0000 |                             0000
+               START_BIT |                             0001 |                             0001
+              DATA_BIT_1 |                             0010 |                             0010
+              DATA_BIT_2 |                             0011 |                             0011
+              DATA_BIT_3 |                             0100 |                             0100
+              DATA_BIT_4 |                             0101 |                             0101
+              DATA_BIT_5 |                             0110 |                             0110
+              DATA_BIT_6 |                             0111 |                             0111
+              DATA_BIT_7 |                             1000 |                             1000
+              DATA_BIT_8 |                             1001 |                             1001
+              STOP_BIT_1 |                             1010 |                             1010
+              STOP_BIT_2 |                             1011 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'rx_control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 863.066 ; gain = 547.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   4 Input     11 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	  12 Input      4 Bit        Muxes := 1     
+	  34 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 4     
+	   3 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	  13 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 5     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module detect 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module rx_bps 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module rx_control 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  13 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 4     
+	  12 Input      4 Bit        Muxes := 1     
+	  34 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 4     
+	   3 Input      2 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 4     
+Module ethernet_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   4 Input     11 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "rx_uart_inst/rx_bps_inst/bps_clk_half" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rx_uart_inst/rx_bps_inst/bps_clk_total" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ethernet_tx_inst/data_request" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 863.066 ; gain = 547.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------+------------+---------------+----------------+
+|Module Name    | RTL Object | Depth x Width | Implemented As | 
++---------------+------------+---------------+----------------+
+|ethernet_tx    | p_0_out    | 64x4          | LUT            | 
+|eth_tx_uart_rx | p_0_out    | 64x4          | LUT            | 
++---------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'pll_25MHZ_inst/clk_out1' to pin 'pll_25MHZ_inst/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'pll_25MHZ_inst/clk_out2' to pin 'pll_25MHZ_inst/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 863.066 ; gain = 547.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 868.691 ; gain = 553.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------+----------+
+|      |BlackBox name      |Instances |
++------+-------------------+----------+
+|1     |pll_25MHZ          |         1|
+|2     |ex_tx_uart_rx_fifo |         1|
++------+-------------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |ex_tx_uart_rx_fifo |     1|
+|2     |pll_25MHZ          |     1|
+|3     |CARRY4             |     4|
+|4     |LUT1               |     1|
+|5     |LUT2               |     7|
+|6     |LUT3               |    25|
+|7     |LUT4               |    15|
+|8     |LUT5               |    18|
+|9     |LUT6               |    35|
+|10    |FDCE               |    19|
+|11    |FDPE               |     2|
+|12    |FDRE               |    32|
+|13    |IBUF               |     2|
+|14    |OBUF               |     7|
++------+-------------------+------+
+
+Report Instance Areas: 
++------+--------------------+------------+------+
+|      |Instance            |Module      |Cells |
++------+--------------------+------------+------+
+|1     |top                 |            |   196|
+|2     |  ethernet_tx_inst  |ethernet_tx |    65|
+|3     |  rx_uart_inst      |rx_uart     |    92|
+|4     |    dectect_inst    |detect      |     3|
+|5     |    rx_bps_inst     |rx_bps      |    34|
+|6     |    rx_control_inst |rx_control  |    55|
++------+--------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 869.961 ; gain = 161.570
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 869.961 ; gain = 554.766
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 876.039 ; gain = 572.316
+INFO: [Common 17-1381] The checkpoint 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/eth_tx_uart_rx.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file eth_tx_uart_rx_utilization_synth.rpt -pb eth_tx_uart_rx_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 876.039 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May  7 22:19:05 2018...

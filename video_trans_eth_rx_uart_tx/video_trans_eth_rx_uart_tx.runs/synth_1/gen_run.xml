@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1525752825">
+  <File Type="PA-TCL" Name="rx_eth_tx_uart.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="rx_eth_tx_uart_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="rx_eth_tx_uart_reports.tcl"/>
+  <File Type="RDS-RDS" Name="rx_eth_tx_uart.vds"/>
+  <File Type="RDS-UTIL" Name="rx_eth_tx_uart_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="rx_eth_tx_uart_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="rx_eth_tx_uart.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="rx_eth_tx_uart_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="rx_eth_tx_uart_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../video_trans_source/ip/ex_rx_uart_tx_fifo/ex_rx_uart_tx_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/ethernet/rx/ethernet_recieve.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/uart/tx/tx_bps.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/uart/tx/tx_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/uart/tx/tx_uart.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/top/rx_eth_tx_uart.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="rx_eth_tx_uart"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../video_trans_source/cons/ethernet/ethernet_rx_io_constrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/cons/top/eth_rx_uart_tx_top_constrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/cons/top/eth_rx_uart_tx_top_constrain_time.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/cons/uart/uart_tx_io_constrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../video_trans_source/cons/uart/uart_tx_io_constrain.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

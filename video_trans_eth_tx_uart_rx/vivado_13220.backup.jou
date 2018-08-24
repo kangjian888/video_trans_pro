@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed May  2 10:38:14 2018
+# Process ID: 13220
+# Current directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8936 C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_eth_tx_uart_rx\video_trans_eth_tx_uart_rx.xpr
+# Log file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado.log
+# Journal file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]

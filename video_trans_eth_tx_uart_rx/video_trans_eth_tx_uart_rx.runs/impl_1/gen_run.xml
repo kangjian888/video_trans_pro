@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1525702689">
+  <File Type="PWROPT-DCP" Name="eth_tx_uart_rx_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="eth_tx_uart_rx_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="eth_tx_uart_rx.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="eth_tx_uart_rx_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="eth_tx_uart_rx_reports.tcl"/>
+  <File Type="BG-DRC" Name="eth_tx_uart_rx.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="eth_tx_uart_rx_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="eth_tx_uart_rx_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="eth_tx_uart_rx.hwdef"/>
+  <File Type="OPT-DCP" Name="eth_tx_uart_rx_opt.dcp"/>
+  <File Type="OPT-DRC" Name="eth_tx_uart_rx_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="eth_tx_uart_rx_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="eth_tx_uart_rx_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="eth_tx_uart_rx_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="eth_tx_uart_rx_placed.dcp"/>
+  <File Type="PLACE-IO" Name="eth_tx_uart_rx_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="eth_tx_uart_rx_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="eth_tx_uart_rx_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="eth_tx_uart_rx_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="eth_tx_uart_rx_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="eth_tx_uart_rx_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="eth_tx_uart_rx_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="eth_tx_uart_rx_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="eth_tx_uart_rx_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="eth_tx_uart_rx_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="eth_tx_uart_rx_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="eth_tx_uart_rx_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="eth_tx_uart_rx.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="eth_tx_uart_rx_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="eth_tx_uart_rx_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="eth_tx_uart_rx_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="eth_tx_uart_rx_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="eth_tx_uart_rx_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="eth_tx_uart_rx_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="eth_tx_uart_rx.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="eth_tx_uart_rx_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="eth_tx_uart_rx.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="eth_tx_uart_rx_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="eth_tx_uart_rx.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="eth_tx_uart_rx_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="eth_tx_uart_rx.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="eth_tx_uart_rx_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="eth_tx_uart_rx_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="eth_tx_uart_rx_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="eth_tx_uart_rx_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="eth_tx_uart_rx_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="eth_tx_uart_rx_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="eth_tx_uart_rx_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="eth_tx_uart_rx_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="eth_tx_uart_rx.vdi"/>
+  <File Type="ROUTE-CLK" Name="eth_tx_uart_rx_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="eth_tx_uart_rx_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="eth_tx_uart_rx_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="eth_tx_uart_rx_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="eth_tx_uart_rx_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="eth_tx_uart_rx_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="eth_tx_uart_rx.nky"/>
+  <File Type="BITSTR-BMM" Name="eth_tx_uart_rx_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="eth_tx_uart_rx.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="eth_tx_uart_rx.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="eth_tx_uart_rx.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/uart/rx/detect.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/ethernet/tx/ethernet_tx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/uart/rx/rx_bps.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/uart/rx/rx_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/uart/rx/rx_uart.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/src/top/eth_tx_uart_rx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="eth_tx_uart_rx"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/cons/uart/uart_rx_io_constrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

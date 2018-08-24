@@ -1,0 +1,927 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May  1 09:03:40 2018
+# Process ID: 7404
+# Current directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5428 C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_eth_tx_uart_rx\video_trans_eth_tx_uart_rx.xpr
+# Log file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/vivado.log
+# Journal file: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 873.121 ; gain = 135.574
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1501.539 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:19:03
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_2' trigger was stopped by user at 2018-May-01 09:30:53
+WARNING: [Labtools 27-157] hw_ila [hw_ila_2] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:30:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:30:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:30:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:31:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:31:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:31:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:31:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:31:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:31:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:31:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:31:12
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:31:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:31:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:31:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1526.445 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:31:32
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_2' trigger was stopped by user at 2018-May-01 09:32:53
+WARNING: [Labtools 27-157] hw_ila [hw_ila_2] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:33:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:33:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:34:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:37:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:37:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:37:38
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:37:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:51:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:51:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 09:51:30
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 09:51:30
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+update_compile_order -fileset sources_1
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date
+[Tue May  1 10:05:39 2018] Launched synth_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a200tfbg676-2
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' for cell 'ex_tx_uart_rx_fifo_inst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.dcp' for cell 'pll_25MHZ_inst'
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ_board.xdc] for cell 'pll_25MHZ_inst/inst'
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ_board.xdc] for cell 'pll_25MHZ_inst/inst'
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc] for cell 'pll_25MHZ_inst/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2474.824 ; gain = 587.047
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc] for cell 'pll_25MHZ_inst/inst'
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc]
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc]
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc]
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp'
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo_clocks.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo_clocks.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:43 ; elapsed = 00:00:32 . Memory (MB): peak = 2570.340 ; gain = 1010.172
+delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list pll_25MHZ_inst/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_1/clk]
+connect_debug_port u_ila_1/clk [get_nets [list pll_25MHZ_inst/inst/clk_out1 ]]
+set_property port_width 8 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {din[0]} {din[1]} {din[2]} {din[3]} {din[4]} {din[5]} {din[6]} {din[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list rx_done_signal ]]
+set_property port_width 8 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list {dout[0]} {dout[1]} {dout[2]} {dout[3]} {dout[4]} {dout[5]} {dout[6]} {dout[7]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 4 [get_debug_ports u_ila_1/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1]
+connect_debug_port u_ila_1/probe1 [get_nets [list {PHY_TXD_d[0]} {PHY_TXD_d[1]} {PHY_TXD_d[2]} {PHY_TXD_d[3]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2]
+connect_debug_port u_ila_1/probe2 [get_nets [list PHY_TX_CTRL_d ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3]
+connect_debug_port u_ila_1/probe3 [get_nets [list send_enale ]]
+save_constraints
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date
+[Tue May  1 10:09:42 2018] Launched synth_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date
+[Tue May  1 10:11:12 2018] Launched impl_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a200t_0_1 and the probes file(s) C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx.
+The device design has 2 ILA core(s) and 0 VIO core(s). The probes file(s) have 0 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2570.340 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:29:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:29:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:29:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:29:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:29:56
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:30:21
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:30:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:31:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:31:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:31:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:31:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:31:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:31:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:31:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:31:12
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:31:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:32:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:32:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:32:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+export_ip_user_files -of_objects  [get_files {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}
+add_files -norecurse {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}
+export_ip_user_files -of_objects  [get_files  {{C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci}}] -lib_map_path [list {modelsim=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/modelsim} {questa=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/questa} {riviera=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/riviera} {activehdl=C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.cache/compile_simlib/activehdl}] -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date
+[Tue May  1 10:39:45 2018] Launched synth_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a200tfbg676-2
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp' for cell 'ex_tx_uart_rx_fifo_inst'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.dcp' for cell 'pll_25MHZ_inst'
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ_board.xdc] for cell 'pll_25MHZ_inst/inst'
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ_board.xdc] for cell 'pll_25MHZ_inst/inst'
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc] for cell 'pll_25MHZ_inst/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc:57]
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xdc] for cell 'pll_25MHZ_inst/inst'
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain.xdc]
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_tx_uart_rx_top_constrain_time.xdc]
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/uart/uart_rx_io_constrain.xdc]
+Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/ethernet/ethernet_tx_io_constrain.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.dcp'
+Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo_clocks.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Finished Parsing XDC File [c:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo_clocks.xdc] for cell 'ex_tx_uart_rx_fifo_inst/U0'
+Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [F:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'ex_tx_uart_rx_fifo_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list pll_25MHZ_inst/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_1/clk]
+connect_debug_port u_ila_1/clk [get_nets [list pll_25MHZ_inst/inst/clk_out1 ]]
+set_property port_width 8 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {din[0]} {din[1]} {din[2]} {din[3]} {din[4]} {din[5]} {din[6]} {din[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list rx_done_signal ]]
+set_property port_width 4 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list {PHY_TXD_d[0]} {PHY_TXD_d[1]} {PHY_TXD_d[2]} {PHY_TXD_d[3]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 8 [get_debug_ports u_ila_1/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1]
+connect_debug_port u_ila_1/probe1 [get_nets [list {dout[0]} {dout[1]} {dout[2]} {dout[3]} {dout[4]} {dout[5]} {dout[6]} {dout[7]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2]
+connect_debug_port u_ila_1/probe2 [get_nets [list PHY_TX_CTRL_d ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3]
+connect_debug_port u_ila_1/probe3 [get_nets [list send_enale ]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 2586.715 ; gain = 0.000
+[Tue May  1 10:41:26 2018] Launched impl_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a200t_0_1 and the probes file(s) C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx.
+The device design has 2 ILA core(s) and 0 VIO core(s). The probes file(s) have 0 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a200t_0_1 and the probes file(s) C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx.
+The device design has 2 ILA core(s) and 0 VIO core(s). The probes file(s) have 0 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2703.195 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:55:41
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:55:41
+ERROR: [Xicom 50-38] xicom: No trigger mark in any sample in window: 0.
+ERROR: [Xicom 50-41] Waveform data read from ILA core is corrupted (user chain=1, slave index=1).
+Resolution:
+1) Ensure that the clock signal connected to the debug core and/or debug hub is clean and free-running.
+2) Ensure that the clock connected to the debug core and/or debug hub meets all timing constraints.
+3) Ensure that the clock connected to debug core and/or debug hub is faster than the JTAG clock frequency.
+ERROR: [Xicom 50-38] xicom: Error during interpreting trace readback data
+ERROR: [Labtools 27-3176] hw_server failed during internal command.
+Resolution: Check that the hw_server is running and the hardware connectivity to the target
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:55:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:55:49
+ERROR: [Xicom 50-38] xicom: No trigger mark in any sample in window: 0.
+ERROR: [Xicom 50-41] Waveform data read from ILA core is corrupted (user chain=1, slave index=1).
+Resolution:
+1) Ensure that the clock signal connected to the debug core and/or debug hub is clean and free-running.
+2) Ensure that the clock connected to the debug core and/or debug hub meets all timing constraints.
+3) Ensure that the clock connected to debug core and/or debug hub is faster than the JTAG clock frequency.
+ERROR: [Xicom 50-38] xicom: Error during interpreting trace readback data
+ERROR: [Labtools 27-3176] hw_server failed during internal command.
+Resolution: Check that the hw_server is running and the hardware connectivity to the target
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:55:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:55:54
+ERROR: [Xicom 50-38] xicom: No trigger mark in any sample in window: 0.
+ERROR: [Xicom 50-41] Waveform data read from ILA core is corrupted (user chain=1, slave index=1).
+Resolution:
+1) Ensure that the clock signal connected to the debug core and/or debug hub is clean and free-running.
+2) Ensure that the clock connected to the debug core and/or debug hub meets all timing constraints.
+3) Ensure that the clock connected to debug core and/or debug hub is faster than the JTAG clock frequency.
+ERROR: [Xicom 50-38] xicom: Error during interpreting trace readback data
+ERROR: [Labtools 27-3176] hw_server failed during internal command.
+Resolution: Check that the hw_server is running and the hardware connectivity to the target
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:55:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:55:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:56:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:56:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 10:57:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 10:57:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_tx_uart_rx_fifo/ex_tx_uart_rx_fifo.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue May  1 10:58:48 2018] Launched synth_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/synth_1/runme.log
+[Tue May  1 10:58:48 2018] Launched impl_1...
+Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/runme.log
+close_design
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+close_hw_target {localhost:3121/xilinx_tcf/Digilent/210512180081}
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+current_hw_device [get_hw_devices xc7a200t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'u_ila_1' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a200t_0_1 and the probes file(s) C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx.
+The device design has 2 ILA core(s) and 0 VIO core(s). The probes file(s) have 0 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2704.211 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:03:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 16:03:00
+ERROR: [Xicom 50-38] xicom: No trigger mark in any sample in window: 0.
+ERROR: [Xicom 50-41] Waveform data read from ILA core is corrupted (user chain=1, slave index=1).
+Resolution:
+1) Ensure that the clock signal connected to the debug core and/or debug hub is clean and free-running.
+2) Ensure that the clock connected to the debug core and/or debug hub meets all timing constraints.
+3) Ensure that the clock connected to debug core and/or debug hub is faster than the JTAG clock frequency.
+ERROR: [Xicom 50-38] xicom: Error during interpreting trace readback data
+ERROR: [Labtools 27-3176] hw_server failed during internal command.
+Resolution: Check that the hw_server is running and the hardware connectivity to the target
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:03:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 16:03:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:03:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 16:03:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:03:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_2] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:03:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 16:03:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:08:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 16:08:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:08:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 16:08:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2018-May-01 16:09:36
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2018-May-01 16:09:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a200t_0_1] 0] [lindex [get_cfgmem_parts {mt25ql256-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.FILES [list "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a200t_0_1] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0_1] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0_1] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0_1] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 19   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:04 ; elapsed = 00:04:46 . Memory (MB): peak = 2704.211 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property FULL_PROBES.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.ltx} [get_hw_devices xc7a200t_0_1]
+set_property PROGRAM.FILE {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bit} [get_hw_devices xc7a200t_0_1]
+program_hw_devices [get_hw_devices xc7a200t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2704.211 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0_1] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+boot_hw_device  [lindex [get_hw_devices xc7a200t_0_1] 0]
+INFO: [Labtoolstcl 44-664] Will wait up to 180 seconds for booting to complete.
+ERROR: [Labtools 27-2254] Booting from configuration memory device unsuccessful.
+boot_hw_device: Time (s): cpu = 00:00:02 ; elapsed = 00:03:01 . Memory (MB): peak = 2704.211 ; gain = 0.000
+ERROR: [Common 17-39] 'boot_hw_device' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROGRAM.ADDRESS_RANGE  {entire_device} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.FILES [list "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_tx_uart_rx/video_trans_eth_tx_uart_rx.runs/impl_1/eth_tx_uart_rx.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+startgroup 
+if {![string equal [get_property PROGRAM.HW_CFGMEM_TYPE  [lindex [get_hw_devices xc7a200t_0_1] 0]] [get_property MEM_TYPE [get_property CFGMEM_PART [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]]]] }  { create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0_1] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0_1] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0_1] 0]; }; 
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0_1] 0]]
+INFO: [Xicom 50-104] The verify operation will only be performed on the address range specified by the Memory Configuration File (MCS).
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 19   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:06:34 . Memory (MB): peak = 2704.211 ; gain = 0.000
+endgroup
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210203A0FE9BA
+close_hw

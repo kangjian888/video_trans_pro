@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/detect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module detect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_bps.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_bps
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/uart/rx/rx_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/sim/uart/rx_uart_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rx_uart_sim

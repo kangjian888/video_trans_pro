@@ -1,0 +1,324 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 11632
+License: Customer
+
+Current time: 	Mon Apr 23 14:50:14 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 63 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	F:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	F:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	KANG Jian
+User home directory: C:/Users/KANG Jian
+User working directory: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Xilinx/Vivado
+HDI_APPROOT: F:/Xilinx/Vivado/2017.4
+RDI_DATADIR: F:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: F:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/KANG Jian/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/KANG Jian/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/KANG Jian/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	F:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/vivado.log
+Vivado journal file location: 	C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/vivado.jou
+Engine tmp dir: 	C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/.Xil/Vivado-11632-DESKTOP-B3RT09T
+
+GUI allocated memory:	177 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 536 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 57 MB (+56978kb) [00:00:08]
+// [Engine Memory]: 505 MB (+377547kb) [00:00:08]
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_eth_rx_uart_tx\video_trans_eth_rx_uart_tx.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 563 MB. GUI used memory: 36 MB. Current time: 4/23/18 2:50:16 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 MB (+3599kb) [00:00:15]
+// [Engine Memory]: 623 MB (+97787kb) [00:00:15]
+// [Engine Memory]: 654 MB (+175kb) [00:00:17]
+// Tcl Message: open_project {C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2017.4/data/ip'. 
+// [GUI Memory]: 69 MB (+2808kb) [00:00:18]
+// [Engine Memory]: 689 MB (+2165kb) [00:00:18]
+// Project name: video_trans_eth_rx_uart_tx; location: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx; part: xc7a200tfbg676-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 865.875 ; gain = 126.117 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 74 MB (+1859kb) [00:00:26]
+// [GUI Memory]: 78 MB (+442kb) [00:00:50]
+// PAPropertyPanels.initPanels (rx_eth_tx_uart.v) elapsed time: 0.2s
+// Elapsed time: 148 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rx_eth_tx_uart (rx_eth_tx_uart.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rx_eth_tx_uart (rx_eth_tx_uart.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/top/rx_eth_tx_uart.v":23'
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 48 MB. Current time: 4/23/18 2:52:57 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rx_eth_tx_uart (rx_eth_tx_uart.v), ethernet_recieve_inst : ethernet_recieve (ethernet_recieve.v)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rx_eth_tx_uart (rx_eth_tx_uart.v), ethernet_recieve_inst : ethernet_recieve (ethernet_recieve.v)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rx_eth_tx_uart (rx_eth_tx_uart.v), ethernet_recieve_inst : ethernet_recieve (ethernet_recieve.v)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/ethernet/rx/ethernet_recieve.v":23'
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): Synthesis is Out-of-date: addNotify
+// [Engine Memory]: 734 MB (+11219kb) [00:03:35]
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// [GUI Memory]: 85 MB (+3483kb) [00:03:36]
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cj)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_rx_uart_tx_fifo/ex_rx_uart_tx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// TclEventType: RUN_LAUNCH
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 90 MB (+62kb) [00:03:38]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 23 14:53:42 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1/runme.log [Mon Apr 23 14:53:42 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 48 MB. Current time: 4/23/18 2:53:46 PM CST
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cj)
+// bs (cj):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_NO, "No"); // a (x)
+dismissDialog("No Implementation Results Available"); // x (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false, false, false, false, true, false); // u (O, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS, "Bitstream Settings..."); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// v (cj): Settings: addNotify
+// [GUI Memory]: 104 MB (+10223kb) [00:03:57]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+dismissDialog("Settings"); // v (cj)
+// [GUI Memory]: 119 MB (+10320kb) [00:03:58]
+// [Engine Memory]: 783 MB (+12152kb) [00:03:58]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// [GUI Memory]: 125 MB (+99kb) [00:04:00]
+dismissDialog("No Implementation Results Available"); // x (cj)
+dismissDialog("Resetting Runs"); // bs (cj)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_rx_uart_tx_fifo/ex_rx_uart_tx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 140 MB (+8355kb) [00:04:01]
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 147 MB (+600kb) [00:04:01]
+// Tcl Message: [Mon Apr 23 14:54:05 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1/runme.log [Mon Apr 23 14:54:05 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 811 MB. GUI used memory: 63 MB. Current time: 4/23/18 2:54:07 PM CST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// [Engine Memory]: 824 MB (+2339kb) [00:08:13]
+// Elapsed time: 717 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 64 MB. Current time: 4/23/18 3:24:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 3:54:07 PM CST
+// Elapsed time: 4398 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "7 warnings"); // h (N, cj)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2292] literal value truncated to fit in 40 bits [C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/ethernet/rx/ethernet_recieve.v:420]. ]", 1, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\KANG Jian\Desktop\video_trans_pro\video_trans_source\src\ethernet\rx\ethernet_recieve.v;-;;-;16;-;line;-;420;-;;-;16;-;"); // ah (O, cj)
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/src/ethernet/rx/ethernet_recieve.v":420'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 70 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (mybyte_reg[3]) is unused and will be removed from module ethernet_recieve.. ]", 3, true); // ah (O, cj) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation]", 4); // ah (O, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design]", 5); // ah (O, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream]", 7); // ah (O, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cj)
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_rx_uart_tx_fifo/ex_rx_uart_tx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 23 16:20:51 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1/runme.log [Mon Apr 23 16:20:51 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// PAPropertyPanels.initPanels (ethernet_recieve.v) elapsed time: 0.2s
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 4:24:07 PM CST
+// TclEventType: RUN_COMPLETED
+// ah (cj): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 4:54:07 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 5:24:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 58 MB. Current time: 4/23/18 5:54:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 6:24:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 6:54:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 7:24:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 7:54:08 PM CST
+// Elapsed time: 14433 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.. ]", 5, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (mybyte_reg[3]) is unused and will be removed from module ethernet_recieve.. ]", 2, true); // ah (O, cj) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3917] design rx_eth_tx_uart has port PHY_RESET_B driven by constant 1. ]", 1, true); // ah (O, cj) - Node
+// Elapsed time: 17 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 7); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, eth_rx_uart_tx_top_constrain_time.xdc]", 10, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, eth_rx_uart_tx_top_constrain.xdc]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, eth_rx_uart_tx_top_constrain.xdc]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, eth_rx_uart_tx_top_constrain.xdc]", 9, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Launch External Editor: 'C:/Program Files/Sublime Text 3/sublime_text.exe "C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/cons/top/eth_rx_uart_tx_top_constrain.xdc":0'
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (eth_rx_uart_tx_top_constrain.xdc) elapsed time: 0.2s
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 8:24:09 PM CST
+// Elapsed time: 132 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cj):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cj)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/ex_rx_uart_tx_fifo/ex_rx_uart_tx_fifo.xci' is already up-to-date INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_source/ip/pll_25MHZ/pll_25MHZ.xci' is already up-to-date 
+// TclEventType: RUN_LAUNCH
+// bs (cj):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Apr 23 20:24:13 2018] Launched synth_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/synth_1/runme.log [Mon Apr 23 20:24:13 2018] Launched impl_1... Run output will be captured here: C:/Users/KANG Jian/Desktop/video_trans_pro/video_trans_eth_rx_uart_tx/video_trans_eth_rx_uart_tx.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// PAPropertyPanels.initPanels (eth_rx_uart_tx_top_constrain.xdc) elapsed time: 0.2s
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 59 MB. Current time: 4/23/18 8:54:09 PM CST
+// ah (cj): Bitstream Generation Completed: addNotify
+// Elapsed time: 3590 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Route Design, [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.. ]", 5, false); // ah (O, cj)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream]", 6); // ah (O, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream]", 6); // ah (O, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 9:24:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 9:54:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 58 MB. Current time: 4/23/18 10:24:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 10:54:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 11:24:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/23/18 11:54:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 12:24:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 12:54:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 1:24:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 1:54:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 2:24:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 2:54:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 3:24:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 3:54:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 4:24:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 4:54:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 5:24:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 5:54:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 6:24:14 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 6:54:14 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 7:24:14 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 7:54:14 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 8:24:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 8:54:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 9:24:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 9:54:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 10:24:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 10:54:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 11:24:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 11:54:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 12:24:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 12:54:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 1:24:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 1:54:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 2:24:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 2:54:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 3:24:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 3:54:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 4:24:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 4:54:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 5:24:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 5:54:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 6:24:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 6:54:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 7:24:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 57 MB. Current time: 4/24/18 7:54:20 PM CST
